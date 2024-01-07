@@ -38,3 +38,27 @@
   padding: 17px 20px;
   border: none;
 }
+/* Previous year failure style*/
+.previous-year-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px;
+    
+}
+.picture{
+    width: 50%;
+    margin-right: 50px;
+}
+.previous-year-text{
+    width: 50%;
+}
+.previous-year-text h2{
+    font-size: 55px;
+}
+.previous-year-text ul{
+    list-style-position: inside;
+}
+.previous-year-text li{
+    margin: 6px 0;
+}
