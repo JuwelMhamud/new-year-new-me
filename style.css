@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+}
+.banner-text {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  text-align: right;
+  width: 50%;
+}
+.title-text {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+}
+.description-text {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px 0;
+}
+.banner-text .btn {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  border: none;
+}
