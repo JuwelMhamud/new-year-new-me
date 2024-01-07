@@ -100,7 +100,7 @@ h3 {
   font-size: 40px;
   font-weight: 700;
 }
-.text button {
+.btn {
   border-radius: 5px;
   color: #f15b22;
   font-size: 20px;
@@ -111,3 +111,38 @@ h3 {
   margin-top: 20px;
 }
 /* footer style */
+footer{
+    display: flex;
+    background-color: #151414;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-left,.footer-right{
+    width: 50%;
+    margin: 120px 200px;
+}
+.footer-right{
+    align-items: right;
+}
+.footer-left h2 {
+    color: #F8F8F8;
+}
+.footer-left p {
+    color: #F8F8F8;
+}
+.footer-left a{
+    margin-left: 10px;
+}
+.footer-right h3{
+    color: #F8F8F8;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-right input{
+    padding: 20px 100px 20px 20px ;
+    border-radius: 10px;
+    color: white;
+    background-color: #151414;
+    border: 1px solid white;
+}
